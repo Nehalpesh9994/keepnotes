@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <header id="header">
+            <div class="wrapper">
+                <h4 class="header_title">Keep Notes</h4>
+                <div class="header_right">
+                    <input type="search" name="search" id="search" placeholder="Search">
+                </div>
+            </div>
+        </header>
+        <div id="mainNotesArea">
+            <div class="mainnotesarea_left">
+                <div class="create_note_btn_box">
+                    <button class="create_note_btn" id="addNotesBtn">
+                        <i class="fa-regular fa-lightbulb"></i>
+                        Create Note
+                    </button>
+                </div>
+            </div>
+            <div class="mainnotesarea_right" id="notesArea">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
